@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV (Hashim Hossam)</title>    
+        <style>
+            /*start of media*/
+            @media screen and (min-width: 480px) {
+                div div div{
+                    display: inline-block;
+                }
+            }
+            
+            @media print {
+                body{
+                    all: unset;
+                    background-color: white;
+                    background-image: white;
+                    background-repeat: space;
+                }
+                
+                *{
+                    border: 1px black solid;
+                }
+                
+                div div {
+                    display: inline-block;
+                }
+            }
+            /*end of media*/
+            
+            * {
+                font-family: Gotham, Helvetica Neue, Helvetica, Arial, " sans-serif";
+                font-size: 105%;
+            }
+            
+            @keyframes hovertitle {
+                0%   {background-color: red;}
+                25%  {background-color: orange;}
+                50%  {background-color: lightblue;}
+                100% {background-color: green;color:red;}
+            }
+            
+            @-webkit-keyframes hovertitle {
+                0%   {background-color: red;}
+                25%  {background-color: orange;}
+                50%  {background-color: lightblue;}
+                100% {background-color: green;color:red;}
+            }
+            
+            div div div:nth-child(odd):hover {
+                background-color: orange;
+                animation-name: hovertitle;
+                animation-duration: 1s;
+                -webkit-animation: hovertitle 1s;
+            }
+            
+            header div,footer div{
+                width:auto;
+                height: 10%;
+                text-align: center;
+                background-color: darkgreen;
+                color:darkblue;
+                border-radius: 5px;
+            }
+            
+            .footerheaderanchor{
+                width: fit-content;
+                padding: 5px;
+                margin: 5px;
+                background-color: rgba(255,255,255,0.6);
+                border-radius: 25px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            body{
+                background-color: mediumaquamarine;
+                background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+                background-repeat: space;
+            }
+            div div div:nth-child(odd) {
+                border-left: 10px solid rgba(0,140,0,0.6);
+            }
+            div#root{
+                border-left: 10px solid rgba(0,140,0,0.6);
+            }
+            div{
+                width: fit-content;
+                padding: 5px;
+                margin: 5px;
+                background-color: rgba(255,255,255,0.6);
+                border-radius: 5px;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
+            
+            div#di1{
+                background-color: rgba(255,255,255,0.6);
+                border-radius: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <header>
+            <div>
+                <div class="footerheaderanchor">
+                    <h1>CV (Hashim Hossam Mahmoud Mohamed)</h1></div>
+            </div>
+        </header>
+        
+        <div id ="root">
+            <div >
+                <div >Name</div>
+                <div >Hashim Hossam Mahmoud Mohamed</div>
+            </div>
+            <div >
+                <div >Address</div>
+                <div >Alexandria, Egypt</div>
+            </div>
+            <div >
+                <div >TEL</div>
+                <div >+201220389830</div>
+            </div>
+            <div >
+                <div >E-MAIL</div>
+                <div ><a href="mailto:hashimhossam@outlook.com">hashimhossam@outlook.com</a></div>
+            </div>
+            <div >
+                <div >IN</div>
+                <div ><a href="https://www.linkedin.com/in/hashimhossam/">https://www.linkedin.com/in/hashimhossam/</a></div>
+            </div>
+            <div >
+                <div >Education</div>
+                <div >Bachelor of Engineering from Department of Computer and
+                    Systems Engineering, Faculty of Engineering, Alexandria University, 
+                    Alexandria, Egypt, Batch: June 2018</div>
+            </div>
+            <div >
+                <div >Experience</div>
+                <div >Training position for 12 months on JEE</div>
+            </div>
+            <div >
+                <div >Skills</div>
+                <div >JAVA Core, Android Development, C/C++, Linux shell, HTML,
+                    CSS, JavaScript, PHP, JQuery, TypeScript, Angular.js, MySQL,
+                    Hibernate, Spring MVC, Jira, JSP, JSF, PrimeFaces, GWT, Sencha
+                    GXT, Node.JS, Python, Matlab, C#, ASP.</div>
+            </div>
+            <div >
+                <div >Military Status</div>
+                <div >Exempted on February 2019</div>
+            </div>
+            <div >
+                <div >Languages</div>
+                <div >Arabic, English</div>
+            </div>
+        </div>
+        
+        <footer>
+            <div>
+                <div class="footerheaderanchor">
+                    <a href="https://cse-hashim.github.io/cv/">https://cse-hashim.github.io/cv/</a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>    
+</html>
