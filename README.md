@@ -20,13 +20,16 @@
 		Faculty of Engineering, Alexandria University, Alexandria, Egypt, Batch: June 2018
 ---	
 	- Experience
-		Training position for 12 months on JEE
+		Teaching Assistant @ Faculty of Engineering Alexandria University (8 monthes)
+
+		Java Software Engineer Intern @ nm-eg LLC (12 monthes)
 ---	
 	- Skills
-		JAVA Core, Android Development, C/C++, Linux shell, HTML,
-		CSS, JavaScript, PHP, JQuery, TypeScript, Angular.js, MySQL,
-		Hibernate, Spring MVC, Jira, JSP, JSF, PrimeFaces, GWT, Sencha
-		GXT, Node.JS, Python, Matlab, C#, ASP.
+		JAVA Core, Android Development, C/C++, HTML, CSS,
+		JavaScript, PHP, MySQL, Hibernate, Spring MVC,
+		JSP, JSF, PrimeFaces, GWT, Node.JS, Python,
+		C#, Laravel, Docker
+.
 ---	
 	- Military Status
 		Exempted on February 2019
