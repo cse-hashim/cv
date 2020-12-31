@@ -1,0 +1,153 @@
+@media screen and (min-width: 480px) {
+    div div div {
+        display: inline-block;
+    }
+}
+
+@media print {
+    body {
+        all: unset;
+        background-color: white;
+        background-image: white;
+        background-repeat: space;
+    }
+
+    * {
+        border: 1px black solid;
+    }
+
+    div div {
+        display: inline-block;
+    }
+}
+
+/*end of media*/
+
+* {
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial, " sans-serif";
+    font-size: 105%;
+}
+
+body {
+    background: lightblue linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12) no-repeat fixed center;
+}
+
+.title {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 10%;
+    text-align: center;
+    background-color: darkgreen;
+    color: darkblue;
+}
+
+@keyframes hovertitle {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: orange;
+    }
+
+    50% {
+        background-color: lightblue;
+    }
+
+    100% {
+        background-color: green;
+        color: red;
+    }
+}
+
+@-webkit-keyframes hovertitle {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: orange;
+    }
+
+    50% {
+        background-color: lightblue;
+    }
+
+    100% {
+        background-color: green;
+        color: red;
+    }
+}
+
+div div div:nth-child(odd):hover {
+    background-color: orange;
+    animation-name: hovertitle;
+    animation-duration: 1s;
+    -webkit-animation: hovertitle 1s;
+}
+
+header div,
+footer div {
+    width: auto;
+    height: 10%;
+    text-align: center;
+    background-color: darkgreen;
+    color: darkblue;
+    border-radius: 5px;
+}
+
+.footerheaderanchor {
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none !important;
+}
+
+.footeranchor {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 10%;
+    text-align: center;
+    background-color: darkgreen;
+    color: darkblue;
+}
+
+div div div:nth-child(odd) {
+    border-left: 10px solid rgba(0, 140, 0, 0.6);
+}
+
+div#root {
+    border-left: 10px solid rgba(0, 140, 0, 0.6);
+}
+
+.div,
+div {
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#dnl {
+    background-color: orange;
+}
+
+#dnl:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
